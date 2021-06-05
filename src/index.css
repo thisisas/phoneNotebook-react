@@ -1,0 +1,53 @@
+.design {
+  text-align: center;
+  justify-content: center;
+}
+.notification {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  background-color: greenyellow;
+}
+h2 {
+  font-family: monospace;
+}
+.boxes {
+  margin: 0.5em;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 0.5em;
+}
+.input {
+  font-weight: bold;
+}
+#btn {
+  text-align: center;
+  justify-content: center;
+  margin: 0.4em;
+}
+li {
+  background: gray;
+}
+li:nth-child(odd) {
+  background: whitesmoke;
+}
+#spacea {
+  display: flex;
+  justify-content: space-between;
+}
+#spaceb {
+  display: flex;
+  justify-content: space-between;
+}
+.namelist {
+  display: flex;
+  justify-content: space-between;
+}
+#delbtn {
+  display: flex;
+  justify-content: space-between;
+}
